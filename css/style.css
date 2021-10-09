@@ -1,0 +1,137 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ font-family:sans-serif;
+ font-size: 14px;
+}
+body{
+    width:100%;
+    min-height: 100vh;
+    background-color:rgb(245, 245, 245);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+  display: flex;
+  align-items : center;
+  justify-content: start;
+  width: 65%;
+  height: 100vh;
+  
+}
+
+.phone00 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%; 
+
+}
+
+.phone00 img{
+ border-radius: 2cm;
+ width: 65rem;
+}
+.profile img{
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  padding-bottom: 0.5rem;
+  overflow: hidden;
+  
+}
+
+.instagram-logo{
+ height:5rem;
+ width: 16rem;
+}
+
+.login{
+  display: flex;
+  align-items : center;
+  justify-content: space-around;
+  flex-direction: column;
+  min-height: 14rem;
+}
+.group{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  padding: 2rem 0;
+  border: 20px solid rgb(245, 245, 245);
+  
+}
+
+.group:nth-child(1){
+  min-width: 35rem;
+  
+}
+.profile{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border-radius:90%;
+  width:  16rem;;
+  padding-bottom:2px;
+}
+
+.continue-login{
+  background-color: rgb(89, 79, 228);
+  color: #ffffff;
+  padding: 8px ;
+  border-radius: 4px;
+}
+
+.continue-logout{
+  color: rgb(89, 79, 228);
+  margin-top: 1.5rem;
+}
+.not-account{
+  color: rgb(182, 165, 165)
+}
+
+.link-blue{
+  color:rgb(89, 79, 228)
+  
+}
+
+.get-the-app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.3rem 0;
+   
+}
+
+.download{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 1rem;
+}
+
+.app-download{
+  width: 10rem;
+  height: 3rem;
+  background-size: cover;
+
+}
+
+.app-download:nth-child(1){
+  background-image: url('./img/apple.png');
+}
+.app-download:nth-child(2){
+  background-image:url('./img/gplay.png');
+}
+
