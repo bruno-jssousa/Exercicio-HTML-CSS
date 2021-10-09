@@ -126,7 +126,7 @@ body{
   height: 3rem;
   background-size: cover;
 
-}
+} 
 
 .app-download:nth-child(1){
   background-image: url('/img/apple.png');
